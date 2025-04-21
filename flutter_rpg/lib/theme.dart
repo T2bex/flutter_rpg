@@ -28,6 +28,7 @@ ThemeData primaryTheme = ThemeData(
     centerTitle: true,
   ),
 
+  //text theme
   textTheme: TextTheme(
     bodyMedium: TextStyle(
       color: AppColors.textColor,
@@ -47,6 +48,15 @@ ThemeData primaryTheme = ThemeData(
       letterSpacing: 2
     ),
   ),
+
+  //card theme
+  cardTheme: CardTheme(
+    color: AppColors.secondaryColor.withOpacity(0.5),
+    surfaceTintColor: Colors.transparent,
+    shape: RoundedRectangleBorder(),
+    shadowColor: Colors.transparent,
+    margin: const EdgeInsets.only(bottom: 16),
+  )
 
 
 
