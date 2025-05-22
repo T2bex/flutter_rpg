@@ -40,7 +40,7 @@ class Character with Stats{
 
 List<Character> characters = [
   Character(id: '1', name: 'Tobe', vocation: Vocation.wizard, slogan: 'Yeahyeah'),
-  Character(id: '2', name: 'Tole', vocation: Vocation.junkie, slogan: 'Light me up'),
+  Character(id: '2', name: 'Audrey', vocation: Vocation.junkie, slogan: 'Light me up'),
   Character(id: '3', name: 'Tosin', vocation: Vocation.raider, slogan: 'Watch the world burn'),
   Character(id: '4', name: 'Vick', vocation: Vocation.ninja, slogan: 'Heal the world'),
 ];
